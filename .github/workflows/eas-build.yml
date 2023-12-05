@@ -31,4 +31,4 @@ jobs:
           chmod +x eas-hooks/*.sh
           mkdir ios
           npx react-native bundle --entry-file='App.js' --bundle-output='./ios/main.jsbundle' --dev=false --platform='ios'
-          eas build --platform ios --non-interactive
+          eas build --platform ios -e test
