@@ -1,0 +1,35 @@
+{
+  "angularJSSuffix": "",
+  "applications": ["jhipster"],
+  "changelogDate": "20231203111840",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "task",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Task",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "jobTitle",
+      "otherEntityName": "job",
+      "otherEntityRelationshipName": "task",
+      "ownerSide": false,
+      "relationshipName": "job",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "serviceClass",
+  "skipClient": false
+}
