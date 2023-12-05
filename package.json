@@ -1,6 +1,7 @@
 {
   "name": "rn-app",
   "version": "0.0.1",
+  "main": "expo-router/entry",
   "scripts": {
     "android": "expo run:android",
     "build:android": "expo build:android",
